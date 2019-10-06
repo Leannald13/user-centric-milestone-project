@@ -17,26 +17,71 @@
 .heading {
     background-color: #8fbc8f;
     width: 100%;
+    padding-top: 10px;
 }
    
     
-}
+
 
 .bg-color-name {
     font-family: "Raleway", sans-serif;
+    color: #2f4f4f;
     text-align: left;
     font-weight: 100;
-    margin-top: 30px;
-    max-width: 100%;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    width: 100%;
+    
 }
 
 .name {
     font-size: 50px;
+    padding-left: 10px;
+}
+
+/* -------------------------------------------------------------Menu items within heading */
+
+.menuitem,
+.menuitem a,
+.menuitem a i {
+    font-size: 25px;
+    color: #2f4f4f;
+    padding: 5px;
+    margin: 10px;
+}
+
+.menuitem span {
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
 }
 
 
+.ui-menu-color-home,
+.ui-menu-color-general, 
+.ui-menu-color-contact {
+    background-color: #F0F8FF;
+    padding-left: 5px;
+    
+}
+
+.ui-menu-color-home {
+    padding-left: 5px;
+}
+
+/* -------------------------------------------------------------Section */
+
+.row {
+    background-color: #F0F8FF;
+  
+}
+
+/* -------------------------------------------------------------Section General.html */
+
+.wrapper {
+    display: inline;
+    width: 100%;
+    margin: auto;
+    
+}
 
 /* -------------------------------------------------------------Footer */
 
@@ -60,4 +105,6 @@ footer {
     transition: all 0.35s ease-in-out;
 }
 
-
+.general-sub {
+    padding-top: 10px;
+}
